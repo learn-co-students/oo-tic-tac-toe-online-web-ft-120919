@@ -1,3 +1,5 @@
+require "pry"
+
 class TicTacToe
 
  def initialize (board = nil)
@@ -95,19 +97,23 @@ class TicTacToe
       nil
      end#do
     end
-   end
- end#winner
+   end#winner
 
-def play
-  until over? == true
+ def play
+  until over? do  
+  #these do not work 
+  #until over? == true  over? === true do turn
     turn
-  end
-
+  end  
+  
+ #binding.pry
+  
   if won?
     puts "Congratulations #{winner}!"
   elsif draw?
     puts "Cat's Game!"
-  end
-end
+  end#IF
+ end
+end#TicTacToe
 
 
