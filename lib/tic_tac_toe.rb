@@ -2,12 +2,12 @@ require 'pry'
 
 class TicTacToe
   attr_accessor :won_by, :board
+
 =begin
 Define a WIN_COMBINATIONS constant within the TicTacToe class, and set
 it equal to a nested array filled with the index values for the
 various winning combinations possible in Tic Tac Toe.
 =end
-
   WIN_COMBINATIONS = [
       [0,1,2], # Top row
       [3,4,5],  # Middle row
@@ -19,13 +19,9 @@ various winning combinations possible in Tic Tac Toe.
       [6,4,2]
   ]
 
-
 def initialize(board = nil)
   @board = board || Array.new(9, " ")
-
 end
-
-
 
 =begin
 The pseudocode for the #turn method:
@@ -39,15 +35,17 @@ else
  ask for input again
 end
 =end
-
   def turn
     puts "Please enter 1-9:" # 1. Ask the user for their move by specifying a position between 1-9.
     user_input = gets.strip # 2. Receive the user's input.
+    #binding.pry
     index = input_to_index(user_input) # 3. Translate that input into an index value.
 
     if valid_move?(index) # If the move is valid, make the move and display the board.
       move(index)
       display_board
+    else
+      turn
     end
 
   end
@@ -56,7 +54,6 @@ end
   Define a method into which we can pass user input (in the form of a string, e.g., "1", "5", etc.)
   and have it return to us the corresponding index of the @board array.
 =end
-
   def input_to_index(input)
     i = input.to_i
     # following takes input
@@ -144,6 +141,7 @@ and return the winning combination indexes as an array if there is a win.
   def full?
     return turn_count==9
   end
+
 # over? that returns true if the board has been won or is full (i.e., is a draw).
   def over?
     if (won? || draw?)
@@ -151,12 +149,12 @@ and return the winning combination indexes as an array if there is a win.
     end
     return false
   end
+
 #  given a winning @board, the winner method should return the token, "X" or "O", that has won the game.
   def winner
     if (won?)
       return @won_by
     end
-
   end
 
 =begin
@@ -171,7 +169,6 @@ else if the game was a draw
   tell the players it ended in a draw
 end
 =end
-
   def play
     #binding.pry
     puts "Welcome to Tic Tac Toe"
@@ -201,6 +198,3 @@ end
     puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
   end
 end
-
-#game = TicTacToe.new
-#game.play
