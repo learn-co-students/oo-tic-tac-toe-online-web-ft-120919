@@ -81,6 +81,7 @@ class TicTacToe
   end
 
   def winner
+    won? == @board
   end
 
 end
