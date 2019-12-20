@@ -48,15 +48,11 @@ class TicTacToe
   end
 
   def valid_move?(index)
-    if position_taken?(index) || index > 8
-      false
-    else
-      true
-    end
+    !position_taken?(index) && index.between?(0, 8)
   end
 
   def turn
-    input = gets.to_i
+    input = gets.strip
     index = input_to_index(input)
     token = current_player
     if valid_move?(input)
