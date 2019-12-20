@@ -88,4 +88,15 @@ class TicTacToe
     end
   end
 
+  def play
+    puts "Please enter 1-9: "
+    while !over?
+      turn
+    end
+    if draw?
+      puts "Cat's Game!"
+    end
+    puts "Congratulations #{winner}!"
+  end
+
 end
