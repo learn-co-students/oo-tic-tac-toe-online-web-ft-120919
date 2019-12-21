@@ -6,13 +6,6 @@ class TicTacToe
     @board = board || Array.new(9, " ")
   end
  
-  def current_player
-    turn_count % 2 == 0 ? "X" : "O"
-  end
- 
-  def turn_count
-    @board.count{|token| token == "X" || token == "O"}
-  end
  
   def display_board
     puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
@@ -42,8 +35,38 @@ class TicTacToe
       @board[spot] = player
     end
     
-    def position_taken(index)
-      
+    def position_taken?(index)
+      !(@board[index].nil? || @board[index] == " ")
+    end
+    
+    def valid_move?(index)
+      !position_taken?(index) && index.between?(0,8)
     end
       
+  def turn_count
+    @board.count{|token| token == "X" || token == "O"}
+  end
+  
+  def current_player
+    turn_count % 2 == 0 ? "X" : "O"
+  end
+  
+  def turn 
+    user_input = gets.chomp
+    index = input_to_index(user_input)
+    if valid_move?(index)
+      player_token = current_player
+      move(index, player_token)
+      display_board
+    else
+      turn
+    end
+  end
+  
+  def won?
+    if WIN_COMBINATIONS.any? == "X" || "O"
+      won
+    end return false 
+  end
+ 
 end
