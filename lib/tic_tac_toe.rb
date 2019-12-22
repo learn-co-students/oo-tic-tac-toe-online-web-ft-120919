@@ -64,9 +64,35 @@ class TicTacToe
   end
   
   def won?
-    if WIN_COMBINATIONS.any? == "X" || "O"
-      won
-    end return false 
+   WIN_COMBINATIONS.detect do |win_combo|
+    if (@board[win_combo[0]]) == "X" && (@board[win_combo[1]]) == "X" && (@board[win_combo[2]]) == "X"
+      return win_combo
+    elsif (@board[win_combo[0]]) == "O" && (@board[win_combo[1]]) == "O" && (@board[win_combo[2]]) == "O"
+      return win_combo
+    end
+      false
+  end
+  end
+  
+  def full?
+    @board.all? {|index| index == "X" || index == "O"}
+  end
+  
+  def draw?
+    !won? && full?
   end
  
+  def over?
+     won? || full? || draw?
+  end
+  
+  def winner
+    win = []
+     WIN_COMBINATIONS.each {|three_in_a_row| 
+      if @board[three_in_a_row[0]] == "X" && @board[three_in_a_row[1]] == "X"
+      win << "X"
+    else
+      win << "O"
+    end
+  end
 end
