@@ -82,25 +82,35 @@ class  TicTacToe
   end
   
   def draw?
-    if full?
-      return true
-    elsif won?
-      return false
-    else
-      false
+    !won? && full? ? true : false
   end
   
+  def over?
+    won? || full? ? true : false
+  end
   
+  def winner
+    WIN_COMBINATIONS.detect do |combo| 
+      if @board[combo[0]] == "X" && @board[combo[1]] == "X" && @board[combo[2]] == "X" 
+        return "X"
+      elsif @board[combo[0]] == "O" && @board[combo[1]] == "O" && @board[combo[2]] == "O"
+        return "O"
+      else 
+        nil
+      end
+    end
+  end
   
+  def play
+    until over? == true
+      turn
+    end
   
-  
-  
-  
-  
-  
-  
-  
-    
-    
-    
+    if won?
+      puts "Congratulations #{winner}!"
+    elsif draw?
+      puts "Cat's Game!"
+    end
+  end
+
 end
