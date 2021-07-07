@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b11cce29-99af-4803-8793-e9550207ce2e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="oo-tic-tac-toe-online-web-ft-120919" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VDGdrLpADTgt56SqrzfvLGO0hq" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RunManager">
+    <configuration name="tic_tac_toe" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="oo-tic-tac-toe-online-web-ft-120919" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$/lib" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/lib/tic_tac_toe.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.tic_tac_toe" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b11cce29-99af-4803-8793-e9550207ce2e" name="Default Changelist" comment="" />
+      <created>1576780343823</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576780343823</updated>
+      <workItem from="1576780353944" duration="15208000" />
+      <workItem from="1576814891078" duration="6965000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576803602962">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="103" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576803602962" />
+    <state x="786" y="333" key="FileChooserDialogImpl" timestamp="1576803594705">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="786" y="333" key="FileChooserDialogImpl/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576803594705" />
+    <state x="2706" y="346" key="FileChooserDialogImpl/0.0.1920.1040/1920.13.1920.1040@1920.13.1920.1040" timestamp="1576780859992" />
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom" timestamp="1576819099910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576819099910" />
+    <state width="1877" height="346" key="GridCell.Tab.0.center" timestamp="1576819099910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.0.center/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576819099910" />
+    <state width="1877" height="346" key="GridCell.Tab.0.left" timestamp="1576819099909">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.0.left/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576819099909" />
+    <state width="1877" height="346" key="GridCell.Tab.0.right" timestamp="1576819099910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.0.right/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576819099910" />
+    <state width="1877" height="346" key="GridCell.Tab.1.bottom" timestamp="1576819099912">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576819099912" />
+    <state width="1877" height="346" key="GridCell.Tab.1.center" timestamp="1576819099911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.1.center/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576819099911" />
+    <state width="1877" height="346" key="GridCell.Tab.1.left" timestamp="1576819099910">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.1.left/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576819099910" />
+    <state width="1877" height="346" key="GridCell.Tab.1.right" timestamp="1576819099911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="346" key="GridCell.Tab.1.right/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576819099911" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1576802277213">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576802277213" />
+    <state x="1033" y="45" width="943" height="1023" key="dock-window-1" timestamp="1576821829807">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1033" y="45" width="943" height="1023" key="dock-window-1/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576821829807" />
+    <state x="628" y="126" width="757" height="906" key="find.popup" timestamp="1576818436208">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="628" y="126" width="757" height="906" key="find.popup/0.0.1920.1040/1920.13.1920.1040@0.0.1920.1040" timestamp="1576818436208" />
+    <state x="2548" y="139" width="757" height="906" key="find.popup/0.0.1920.1040/1920.13.1920.1040@1920.13.1920.1040" timestamp="1576780887530" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/oo_tic_tac_toe_online_web_ft_120919@tic_tac_toe.rcov" NAME="tic_tac_toe Coverage Results" MODIFIED="1576819041235" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lib" MODULE_NAME="oo-tic-tac-toe-online-web-ft-120919" />
+  </component>
+</project>
